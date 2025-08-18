@@ -10,5 +10,5 @@ function solve() {
     console.log(age);
 }
 
-console.log(age);
+// console.log(age);
 solve();
