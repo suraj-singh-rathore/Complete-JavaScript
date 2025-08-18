@@ -1,4 +1,4 @@
-// For Loop:-
+// (1).For Loop:-
 
 // for(let i=1; i<=10; i++){
 //     console.log("SURAJ")
@@ -27,9 +27,17 @@
 
 // Continue:-
 
-for(let i=1; i<=5; i++){
-    if(i==3)
-        continue;
-    else
-        console.log(i);
+// for(let i=1; i<=5; i++){
+//     if(i==3)
+//         continue;
+//     else
+//         console.log(i);
+// }
+
+// (2). While Loop:-
+
+let i = 1;
+while(i <= 10) {
+    console.log("SURAJ");
+    i++;
 }
