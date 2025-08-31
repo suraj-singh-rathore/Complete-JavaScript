@@ -1,4 +1,4 @@
-//  // // Code 1
+//  //  Code 1
 // const t1 = performance.now()
 
 //  for (let i=1; i<=100; i++) {
@@ -27,7 +27,7 @@
 
 // console.log("total time by code 2: " + (t4  -t3));
 
-
+// //best code
 let fragment = document.createDocumentFragment();
 
 for(let i=1; i<=100; i++) {
