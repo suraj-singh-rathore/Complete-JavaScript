@@ -38,11 +38,11 @@ let promise3 = new Promise((resolve, reject) =>{
     setTimeout(resolve, 3000, "Third");
 })
 
-let promise4 = new Promise((resolve, reject)=>{
-    setTimeout(reject, 4000, "Fourth");
-})
+// let promise4 = new Promise((resolve, reject)=>{
+//     setTimeout(reject, 4000, "Fourth");
+// })
 
-Promise.all([promise1, promise2, promise3, promise4])
+Promise.all([promise1, promise2, promise3]) //promise4])
 .then((values) => {
     console.log(values);
 })
